@@ -48,6 +48,8 @@ g.close()
 
 
 
+
+
 with open('tmp.txt','a') as g:
     g.write('dfdfdfdfd\nfdf\n121\n34\n56\n1212189898')
 
