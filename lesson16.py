@@ -1,4 +1,6 @@
 #coding=utf-8
+import os
+import sys
 '''
 #1、定义一个方法，该方法可以引入任意多的整形参数，结果返回其中最大与最小的值
 
@@ -32,16 +34,14 @@ print get_help('urllib')
 
 '''
 #4、定义一个方法  f参数为任意一个文件的磁盘路径，该函数返回f文件的内容
-import os
 
-def get_text(str1):
-    if os.path.exists(f):
-        with open(str1,'r') as g:
-            return g.read()
-    else:
-        return 'nothing this file'
 
-print get_text('tmp.txt')
+
+def get_text(*f):
+    print f[0]
+    return os.listdir(f[0])
+
+print get_text('/Users/zhixinping/PycharmProjects/python1/')
 
 
 
