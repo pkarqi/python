@@ -1,6 +1,8 @@
 #coding=utf-8
 import os
 import sys
+import glob
+import re
 '''
 #1、定义一个方法，该方法可以引入任意多的整形参数，结果返回其中最大与最小的值
 
@@ -32,7 +34,7 @@ def get_help(a):
     return help(a)
 print get_help('urllib')
 
-'''
+
 #4、定义一个方法  f参数为任意一个文件的磁盘路径，该函数返回f文件的内容
 
 
@@ -43,10 +45,11 @@ def get_text(*f):
 
 print get_text('/Users/zhixinping/PycharmProjects/python1/')
 
-
-
-
-
+'''
+#5、定义一个方法get_dir(folder),folder参数为任意一个文件夹，该函数返回folder文件夹的文件列表
+def get_dir(folder):
+    return glob.glob(folder+'/*')
+print get_dir("/Users/zhixinping/")
 
 
 
