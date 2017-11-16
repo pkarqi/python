@@ -2,14 +2,14 @@
 
 def add0(x,y):
     z =x + y
-    #return z
+    return z
 add0(4,5)
 
 
 
 def add1(a,b):
     c =a + b
-    #return c
+    return c
 add0(3,4)
 
 
