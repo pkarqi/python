@@ -10,7 +10,7 @@ fp.close()
 HOST = "smtp.exmail.qq.com"
 SUBJECT = "数据问题"
 TO = "pkarqi@163.com"
-FROM = 'yunwei@xxxxxxx.com'
+FROM = 'yunwei@zhongchebaolian.com'
 text = '数据问题1111111'
 BODY = string.join(("FROM: %s" % FROM,
                     "TO: %s" %TO,
@@ -26,7 +26,7 @@ BODY = string.join(("FROM: %s" % FROM,
 server = smtplib.SMTP()
 server.connect(HOST,'25')
 server.starttls()
-server.login("yunwei@zxxxxxx.com","ccccccc")
+server.login("yunwei@xxxxxx.com","12121212121")
 server.sendmail(FROM, [TO], BODY, )
 
 server.quit()
