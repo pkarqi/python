@@ -8,6 +8,8 @@ s = 'jkjkj12'
 #print H
 
 #b = []
+'''
 for i in s:
     ls =
 print b
+'''
