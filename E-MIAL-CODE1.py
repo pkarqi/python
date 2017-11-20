@@ -10,7 +10,7 @@ fp.close()
 HOST = "smtp.exmail.qq.com"
 SUBJECT = "数据问题"
 TO = "pkarqi@163.com"
-FROM = 'yunwei@zhongchebaolian.com'
+FROM = 'yunwei@xxxxxxxx.com'
 text = '数据问题1111111'
 BODY = string.join(("FROM: %s" % FROM,
                     "TO: %s" %TO,
