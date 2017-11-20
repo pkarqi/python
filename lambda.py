@@ -1,5 +1,5 @@
 #coding=utf-8
-# lambda使用方法
+# lambda使用方法 jil
 
 a = [1,2,3,4,5,7]
 b = filter(lambda x :x!=5,a)
