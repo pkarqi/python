@@ -3,4 +3,7 @@ f=open('demo.txt','w')
 for i in list:
     k=''.join([str(j) for j in i])
     f.write(k+"\n")
+
+
+
 f.close()
