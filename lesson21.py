@@ -5,4 +5,6 @@ for i in list:
     f.write(k+'\n')
 
 
+
+
 f.close()
