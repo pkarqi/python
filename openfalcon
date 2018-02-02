@@ -37,3 +37,4 @@ url =  'http://127.0.0.1:1988/v1/push'
 request = urllib2.Request(url, data=json.dump(p))
 request.add_header('Content-Type','application/json')
 request.get_method = lambda:method
+未经测试
